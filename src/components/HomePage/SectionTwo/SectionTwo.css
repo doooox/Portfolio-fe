@@ -1,0 +1,95 @@
+.section-two-container {
+  width: 100%;
+  max-width: 80%;
+  height: 40vh;
+  margin: 0 auto;
+  background-color: rgb(70, 68, 68);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1rem 0;
+  text-align: start;
+}
+.title {
+  display: inline;
+  margin: 4rem;
+  font-size: 1.5rem;
+  color: rgba(255, 141, 0, 1);
+}
+.bla {
+  display: flex;
+}
+
+.section-two-text-container h1 {
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+
+.section-two-text-container {
+  max-width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-two-text-container p,
+h1 {
+  color: white;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 370px) {
+  .section-two-container {
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  .title {
+    margin: 2rem;
+    font-size: 1.2rem;
+  }
+  .section-two-text-container p {
+    margin: 1rem -1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section-two-container {
+    height: auto;
+  }
+  .title {
+    text-align: right;
+    margin: 3rem;
+    font-size: 1.5rem;
+  }
+  .section-two-text-container p {
+    margin: 1rem -1.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .section-two-container {
+    height: auto;
+  }
+  .title {
+    margin: 4rem;
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1441px) {
+  .section-two-container {
+    height: auto;
+  }
+
+  .title {
+    margin: 4rem;
+    font-size: 3rem;
+  }
+
+  .section-two-text-container {
+    font-size: 1.5rem;
+  }
+}

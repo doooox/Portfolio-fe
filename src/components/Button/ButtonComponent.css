@@ -1,0 +1,33 @@
+.button-container button {
+  background: linear-gradient(
+    90deg,
+    rgba(218, 51, 63, 1) 0%,
+    rgba(217, 166, 12, 1) 42%,
+    rgba(255, 141, 0, 1) 50%
+  );
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-size: 200%;
+  background-position: right;
+}
+
+.button-container button:hover {
+  background-position: left;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .button-container button {
+    margin: 1rem 1rem 0 1rem;
+    text-align: left;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}

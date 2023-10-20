@@ -1,0 +1,154 @@
+.single-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.project-details {
+  width: 100%;
+  max-width: 80%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.project-description {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  margin: 1rem;
+  text-align: justify;
+}
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.project-technologies li {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ddd;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.project-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 80%;
+  height: 400px;
+  margin: 10px auto;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media (min-width: 280px) {
+  .project-details {
+    width: 100%;
+    max-width: 80%;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .project-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .project-description {
+    font-size: 0.8rem;
+    margin: 1rem -0.5rem;
+  }
+
+  .project-technologies {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .technologies-title {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  .project-technologies li {
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .project-image {
+    box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0);
+  }
+}
+@media (min-width: 1280px) {
+  .project-title {
+    text-align: left;
+    font-size: 3rem;
+  }
+
+  .project-description {
+    font-size: 1.2rem;
+    margin: 1rem -0.5rem;
+  }
+
+  .technologies-title {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .project-technologies li {
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+  }
+}
+
+.project-images {
+  animation: fromStart 1.5s;
+}
+
+.project-description {
+  animation: fromEnd 1.5s;
+}
+
+@keyframes fromStart {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fromEnd {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

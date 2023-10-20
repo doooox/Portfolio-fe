@@ -1,0 +1,34 @@
+.home-container {
+  margin: auto;
+  padding: 1rem;
+  background-color: rgb(53, 52, 52);
+}
+.section-one {
+  margin: 1rem 0;
+}
+.section-two {
+  margin: 1rem 0;
+}
+
+@media (max-width: 767px) {
+  .home-container {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.home-container {
+  animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

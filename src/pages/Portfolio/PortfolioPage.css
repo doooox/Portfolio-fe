@@ -1,0 +1,40 @@
+.portfiolio-container {
+  height: auto;
+}
+.portfiolio {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffffab;
+  font-size: 5rem;
+}
+.spinner {
+  font-size: 10rem;
+}
+
+.portfiolio-container {
+  animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

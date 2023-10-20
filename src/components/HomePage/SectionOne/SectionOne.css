@@ -1,0 +1,212 @@
+.section-one-conteiner {
+  width: 100%;
+  max-width: 80%;
+  height: 30vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(70, 68, 68);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+.section-one-conteiner h3 {
+  margin-left: 4rem;
+  color: white;
+}
+.section-one-conteiner h1 {
+  font-size: 2.5rem;
+  margin-left: 4rem;
+  margin-top: -1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(218, 51, 63, 1) 0%,
+    rgba(217, 166, 12, 1) 42%,
+    rgba(255, 141, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-one-image {
+  position: relative;
+  margin-right: 7rem;
+  width: 150px;
+  height: 150px;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5), 0 0 10px 2px rgba(0, 0, 0, 0.5),
+    0 0 20px 5px rgba(0, 0, 0, 0.5);
+
+  background-color: rgb(155, 155, 155);
+}
+
+.section-one-image img {
+  position: absolute;
+  width: 141%;
+  height: 141%;
+  transform: rotate(45deg);
+  object-fit: cover;
+  left: -20%;
+  top: -20%;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5), 0 0 30px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 767px) {
+  .section-one-conteiner {
+    flex-direction: column;
+    height: auto;
+  }
+  .section-one-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-one-conteiner h3,
+  .section-one-conteiner h1 {
+    margin: 1rem;
+    text-align: center;
+  }
+  .section-one-conteiner h3 {
+    font-size: 0.7rem;
+  }
+  .section-one-conteiner h1 {
+    font-size: 1.7rem;
+  }
+
+  .section-one-image {
+    margin: 2rem;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .section-one-conteiner {
+    flex-direction: row;
+    height: auto;
+    padding: 1rem;
+  }
+  .section-one-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-one-conteiner h3,
+  .section-one-conteiner h1 {
+    margin: 1rem 1rem 0 1rem;
+    text-align: center;
+  }
+  .section-one-conteiner h3 {
+    font-size: 1rem;
+  }
+
+  .section-one-conteiner h1 {
+    font-size: 2rem;
+  }
+  .section-one-image {
+    margin: 5rem 2rem 5rem 2rem;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media only screen and (min-width: 370px) {
+  .section-one-conteiner {
+    justify-content: space-between;
+    height: auto;
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1356px) {
+  .section-one-conteiner {
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .section-one-conteiner h3,
+  .section-one-conteiner h1,
+  .section-one-conteiner button {
+    margin: 1rem 1rem 0 1rem;
+    text-align: left;
+  }
+
+  .section-one-image {
+    margin: 3rem;
+    width: 150px;
+    height: 150px;
+  }
+
+  .section-one-image img {
+    width: 141%;
+    height: 141%;
+    top: -20%;
+    left: -20%;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1460px) {
+  .section-one-conteiner {
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .section-one-conteiner h3,
+  .section-one-conteiner h1,
+  .section-one-conteiner button {
+    margin: 0 4rem;
+    text-align: left;
+  }
+  .section-one-conteiner button {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .section-one-image {
+    margin: 3rem;
+    width: 170px;
+    height: 170px;
+  }
+
+  .section-one-image img {
+    width: 141%;
+    height: 141%;
+    top: -20%;
+    left: -20%;
+  }
+}
+@media only screen and (min-width: 1460px) {
+  .section-one-conteiner {
+    justify-content: space-between;
+    height: 30vh;
+  }
+
+  .section-one-conteiner h3,
+  .section-one-conteiner h1,
+  .section-one-conteiner button {
+    margin: 0 4rem;
+    text-align: left;
+  }
+  .section-one-conteiner h3 {
+    font-size: 1.5rem;
+  }
+  .section-one-conteiner h1 {
+    font-size: 3rem;
+  }
+  .section-one-image {
+    margin: 4rem;
+    width: 220px;
+    height: 220px;
+  }
+
+  .section-one-image img {
+    width: 141%;
+    height: 142%;
+    top: -20%;
+    left: -20%;
+  }
+  .section-one-conteiner button {
+    padding: 0.6rem;
+    font-size: 1.2rem;
+  }
+}

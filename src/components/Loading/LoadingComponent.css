@@ -1,0 +1,13 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 70vh;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.loading-container h1 {
+  color: #fc9003;
+}
