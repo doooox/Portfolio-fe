@@ -12,13 +12,13 @@ const useAuthGuard = () => {
   );
   useEffect(() => {
     if (!perms) return;
-    if (!user && perms.perms.isAdmin) {
-      navigate(ROUTES.LOGIN);
-      return;
-    }
-    if (user && perms.perms.guest) {
-      navigate(-1);
-    }
+    // if (!user && perms.perms.isAdmin) {
+    //   navigate(ROUTES.LOGIN);
+    //   return;
+    // }
+    // if (user && perms.perms.guest) {
+    //   navigate(-1);
+    // }
   }, []);
 };
 
