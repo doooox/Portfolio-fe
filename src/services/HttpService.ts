@@ -5,7 +5,7 @@ class HttpService {
 
   constructor() {
     this.httpClient = axios.create({
-      baseURL: "http://127.0.0.1:5000/api",
+      baseURL: "https://dusantopic-api.onrender.com",
     });
   }
   request = <T, R = T>(requestConfig: AxiosRequestConfig): Promise<R> =>
