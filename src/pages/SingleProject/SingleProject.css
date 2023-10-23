@@ -84,7 +84,7 @@
   }
 
   .project-technologies {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
   }
   .technologies-title {
@@ -93,7 +93,7 @@
   }
 
   .project-technologies li {
-    font-size: 1rem;
+    font-size: 0.7rem;
     padding: 0.2rem 0.5rem;
   }
 

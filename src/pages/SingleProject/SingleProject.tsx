@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useGetSingleProjectQuery } from "../../queries/project.query";
 import { Carousel } from "react-responsive-carousel";
@@ -55,11 +55,11 @@ const SingleProject = () => {
         </div>
         <p className="project-description">{project?.description}</p>
         <h4 style={{ color: "white" }} className="technologies-title">
-          Technologies used for this project:{" "}
+          Technologies used for this project:
         </h4>
         <ul className="project-technologies">
           {project?.technologies.map((tech) => (
-            <li key={tech}>{tech}</li>
+            <li key={tech._id}>{tech.name}</li>
           ))}
         </ul>
       </div>

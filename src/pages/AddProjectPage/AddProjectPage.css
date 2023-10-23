@@ -1,0 +1,53 @@
+.add-project-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  margin: 5px 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.error {
+  width: 100%;
+  display: block;
+  color: #fff;
+  background-color: red;
+  margin: 1rem 0;
+  padding: 0.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.technologies-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technologies-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.tech-select {
+  margin: 1rem;
+}
+
+.select-name {
+  color: #fff;
+}

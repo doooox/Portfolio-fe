@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import { ILogin, IUser } from "../types/user.types";
 import { httpService } from "./HttpService";
 import { ENDPOINTS } from "../utils/static";

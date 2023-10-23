@@ -1,7 +1,15 @@
-export interface IProject {
+export interface IProject extends IProjectDraft {
   _id: string;
+}
+
+export interface IProjectDraft {
   title: string;
   description: string;
-  technologies: string[];
+  technologies: ITech[];
   photos: string[];
+}
+
+export interface ITech {
+  _id: string;
+  name: string;
 }

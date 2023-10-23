@@ -16,7 +16,10 @@ const useAuthGuard = () => {
       navigate(ROUTES.LOGIN);
       return;
     }
-  });
+    if (user && perms.perms.guest) {
+      navigate(-1);
+    }
+  }, []);
 };
 
 export default useAuthGuard;

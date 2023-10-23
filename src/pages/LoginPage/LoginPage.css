@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.form-wrapper {
+  background-color: rgba(20, 20, 17, 0.141);
+  padding: 2rem 0;
+  color: whitesmoke;
+}
+.button-wrapper {
+  text-align: center;
+  margin: 1rem 0;
+}

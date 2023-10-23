@@ -1,6 +1,7 @@
 .App {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   padding-top: 1rem;
   background-color: rgb(53, 52, 52);
+  height: 100vh auto;
 }

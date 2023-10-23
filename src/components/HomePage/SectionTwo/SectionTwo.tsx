@@ -10,12 +10,12 @@ const SectionTwo = () => {
         <div className="section-two-text-container">
           <h1>I am a Full Stack Web Developer</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-            officiis quo voluptate amet voluptas totam veniam, quae ad iusto
-            sequi omnis nesciunt! Doloremque et dignissimos cum asperiores
-            nostrum cupiditate id nisi quibusdam quis impedit, error eligendi
-            provident iste quaerat, harum eius reprehenderit dicta nulla totam
-            libero iure nam itaque! Architecto?
+            I am Dušan Topić, a passionate and aspiring web developer with a
+            deep-rooted love for creating in the digital realm. My journey into
+            the world of development began as a curiosity, but it has evolved
+            into a genuine career pursuit. I am driven by a relentless desire to
+            expand my knowledge and skills, to learn and create, and to
+            contribute to the ever-evolving web development landscape.
           </p>
         </div>
       </div>
